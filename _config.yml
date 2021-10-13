@@ -1,7 +1,10 @@
 title: Template
+lang: fr
 
 exclude:
   - README.md
+  - package.json
+  - yarn.lock
 
 defaults:
   -
@@ -13,6 +16,9 @@ defaults:
 collections:
   pages:
     output: true
+
+plugins:
+  - jekyll-sitemap
 
 sass:
     style: compressed
